@@ -1,0 +1,17 @@
+{
+  "Author": "mirage",
+  "Name": "MirageUI Sample",
+  "Punchline": "MirageUI development and theme preview.",
+  "Description": "Sample plugin for the MirageUI library. UI component samples and theme editor for development.",
+  "InternalName": "MirageUiSample",
+  "AssemblyVersion": "1.0.0.0",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": "15",
+  "Tags": [
+    "mirageui",
+    "ui",
+    "development"
+  ],
+  "IconUrl": "",
+  "ImageUrl": ""
+}
