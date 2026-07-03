@@ -62,14 +62,7 @@ internal sealed class LayoutSampleWindow : Window
             ],
         };
 
-        Size = new Vector2(900, 630);
-        SizeCondition = ImGuiCond.FirstUseEver;
-        SizeConstraints = new()
-        {
-            MinimumSize = Size.Value,
-            MaximumSize = new Vector2(4096, 2160),
-        };
-        Flags |= ImGuiWindowFlags.NoResize;
+        MirageWindowDefaults.ApplyTo(this);
 
         _sidebar.OnSelectionChanged = id =>
         {
