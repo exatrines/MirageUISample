@@ -34,14 +34,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Remove="vendor/**" />
-        <None Remove="vendor/**" />
-        <Content Remove="vendor/**" />
-        <EmbeddedResource Remove="vendor/**" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="vendor\MirageUI\MirageUI\MirageUI.csproj" />
+        <ProjectReference Include="..\MirageUI\MirageUI\MirageUI.csproj" />
     </ItemGroup>
 
     <ItemGroup>
